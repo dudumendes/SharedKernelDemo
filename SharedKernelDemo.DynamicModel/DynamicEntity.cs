@@ -1,0 +1,7 @@
+namespace SharedKernelDemo.DynamicModel;
+
+public class DynamicEntity
+{
+    public Guid Id { get; set; }
+    public string Name { get; set; } = string.Empty;
+}
